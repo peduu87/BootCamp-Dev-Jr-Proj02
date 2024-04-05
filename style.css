@@ -13,6 +13,7 @@ body {
     padding: 1.5rem;
     box-sizing: border-box;
     color: white;
+    margin-top: 35px;
 }
 
 .header {
@@ -96,4 +97,8 @@ input:focus {
     align-items: center;
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.credits {
+    text-align: center;
 }
