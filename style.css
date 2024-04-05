@@ -87,6 +87,8 @@ input:focus {
 }
 
 .vote-box {
+    display: flex;
+    flex-direction: column;
     background-color: #B8FF33;
     color: #0e1318;
     box-sizing: border-box;
@@ -122,4 +124,39 @@ button:hover {
 
 .credits {
     text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+    
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .vote {
+        flex-direction: column;
+        align-items: center;
+        height: 820px;
+    }
+
+    .vote-box {
+        width: 80%;
+    }
+
+    button {
+        width: 120px;
+    }
+
 }
